@@ -14,7 +14,7 @@ const Navbar = () => {
     <nav className="sticky top-0 w-full bg-neutral-800/30 backdrop-blur-lg z-10">
       <div className="flex justify-between items-center px-6 py-4">
         
-        <div className="text-xl font-bold text-white h1 l">singlesheet</div>
+        <div className="text-xl font-bold text-white h1 logo">singlesheet</div>
 
        
         <button
