@@ -1,10 +1,19 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./Pages/Landing ";
+
 function App() {
   
 
   return (
     <>
-    <h1 className="text-center mt-4 text-2xl">Pls build the frontend 😭😭😭</h1>
-      
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage/>}>
+        
+        </Route>
+      </Routes>
+    </BrowserRouter>
+          
     </>
   )
 }
