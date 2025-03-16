@@ -10,7 +10,7 @@ const Landing = () => {
               A Single Sheet of Paper Can Decide Your Future, Make It Count
             </h1>
             <br />
-            <p className='tracking-tight text-gray-600'>
+            <p className='tracking-tight text-gray-400'>
               Your resume is more than just a document—it's your first impression. SingleSheet ensures that one page works for you, not against you. With AI-powered optimization, your resume will be tailored to match any job description perfectly.
             </p>
           </div>
