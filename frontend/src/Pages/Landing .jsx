@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Landing = () => {
+  const navigate = useNavigate();
   return (
     <>
       <section id='home' className='pt-24 min-h-screen flex items-center justify-center'>
@@ -15,7 +17,7 @@ const Landing = () => {
             </p>
           </div>
           <div className="mx-auto text-center pt-6 flex justify-center space-x-4">
-            <button className="btn-primary">Get Started Free</button>
+            <button onClick={()=> navigate('/signin')} className="btn-primary">Get Started Free</button>
             <button className="btn-secondary">See How It Works</button>
           </div>
         </div>
